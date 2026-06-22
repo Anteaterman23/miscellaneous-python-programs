@@ -1,3 +1,13 @@
+## Cipher
+
+As a challenge, I wanted to implement a simple encoding/decoding scheme which reduces all messages to (mostly) numeric strings. Some other strengths of the algorithm I came up with include:
+- Messages can only be decoded if sender and receiver have a shared secret string
+- Messages cannot easily be recovered by brute-forcing secrets
+- Messages encoded with similar secrets do not appear similar
+
+Here's a more in-depth explanation of how it works:
+- TODO
+
 ## Rational Estimate Algorithm
 
 Generates a rational estimate, `a / b`, for a given irrational number. Does so by implementing a brute-force best rational approximation search. Runs in O(n), and could definitely be outperformed by continued fractions.
